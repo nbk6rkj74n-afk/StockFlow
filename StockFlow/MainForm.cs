@@ -80,7 +80,7 @@ namespace StockFlow
 
         private void btnRaporlar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Buton çalışıyor!");
+            
 
             ReportsForm reportsForm = new ReportsForm();
             reportsForm.Show();

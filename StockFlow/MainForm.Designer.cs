@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panelMenu = new Panel();
+            btnRaporlar = new Button();
             btnCikis = new Button();
             btnStokCikis = new Button();
             btnStokGiris = new Button();
@@ -45,7 +46,6 @@
             lblStokDegeriBasliik = new Label();
             lblStokDegeri = new Label();
             colorDialog1 = new ColorDialog();
-            btnRaporlar = new Button();
             panelMenu.SuspendLayout();
             pnlToplamUrun.SuspendLayout();
             pnlKritikStok.SuspendLayout();
@@ -65,6 +65,16 @@
             panelMenu.Name = "panelMenu";
             panelMenu.Size = new Size(220, 653);
             panelMenu.TabIndex = 0;
+            // 
+            // btnRaporlar
+            // 
+            btnRaporlar.Location = new Point(30, 372);
+            btnRaporlar.Name = "btnRaporlar";
+            btnRaporlar.Size = new Size(94, 29);
+            btnRaporlar.TabIndex = 4;
+            btnRaporlar.Text = "Raporlar";
+            btnRaporlar.UseVisualStyleBackColor = true;
+            btnRaporlar.Click += btnRaporlar_Click;
             // 
             // btnCikis
             // 
@@ -172,7 +182,7 @@
             // lblKritikStok
             // 
             lblKritikStok.AutoSize = true;
-            lblKritikStok.Location = new Point(137, 80);
+            lblKritikStok.Location = new Point(128, 78);
             lblKritikStok.Name = "lblKritikStok";
             lblKritikStok.Size = new Size(17, 20);
             lblKritikStok.TabIndex = 6;
@@ -199,21 +209,11 @@
             // lblStokDegeri
             // 
             lblStokDegeri.AutoSize = true;
-            lblStokDegeri.Location = new Point(127, 80);
+            lblStokDegeri.Location = new Point(115, 80);
             lblStokDegeri.Name = "lblStokDegeri";
             lblStokDegeri.Size = new Size(17, 20);
             lblStokDegeri.TabIndex = 8;
             lblStokDegeri.Text = "0";
-            // 
-            // btnRaporlar
-            // 
-            btnRaporlar.Location = new Point(30, 372);
-            btnRaporlar.Name = "btnRaporlar";
-            btnRaporlar.Size = new Size(94, 29);
-            btnRaporlar.TabIndex = 4;
-            btnRaporlar.Text = "Raporlar";
-            btnRaporlar.UseVisualStyleBackColor = true;
-            btnRaporlar.Click += btnRaporlar_Click;
             // 
             // MainForm
             // 
